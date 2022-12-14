@@ -1,7 +1,8 @@
 
 const CakeContainer=()=>{
     return(<div>
-        <h1>Hello</h1>
+        <h1>Number of Cake</h1>
+        <button>Buy Cake</button>
     </div>)
 }
 
