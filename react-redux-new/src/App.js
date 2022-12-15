@@ -1,11 +1,15 @@
 import './App.css';
 import CakeContainer from './component/CakeContainer';
+import store from './redux/store';
+import {Provider} from 'react-redux'
 
 function App() {
   return (
-    <div className="App">
-      <CakeContainer/>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <CakeContainer/>
+      </div>
+    </Provider>
   );
 }
 
